@@ -3,8 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:version_0/Bloc/AuthRepository.dart';
 import 'package:version_0/Bloc/LoginBloc.dart';
 import 'package:version_0/Bloc/LoginState.dart';
-import 'package:version_0/LoginEvent.dart';
-import 'package:version_0/LoginSubmitionStatus.dart';
+import 'package:version_0/Bloc/LoginEvent.dart';
+import 'package:version_0/Bloc/LoginSubmissionStatus.dart';
 
 class LoginScreen extends StatelessWidget {
   final _formKey = GlobalKey<FormState>();
